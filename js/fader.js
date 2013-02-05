@@ -10,5 +10,4 @@ jQuery(document).ready(function($){
 		}
 		else {i = 0;}	
 	},8000);
-}); 
-
+});

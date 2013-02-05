@@ -1,16 +1,14 @@
 <?php
 /*
 Plugin Name: Luke's Custom Fader
-Plugin URI: http://luketilley.com
+Plugin URI: http://luketilley.com/fader
 Description: There was no simple text fader plugin so I wrote one.
 Version: The Plugin's Version Number: 0.1
 Author: Luke Tilley
 Author URI: http://luketilley.com
 License: GPL2
 */
-?>
 
-<?php
 /*  Copyright 2013  Luke Tilley  (email : luketilley@gmail.com)
 
     This program is free software; you can redistribute it and/or modify
@@ -26,9 +24,6 @@ License: GPL2
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-?>
-
-<?php
 
 function fade($atts, $content = null)
 {
