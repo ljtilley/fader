@@ -27,7 +27,7 @@ License: GPL2
 
 function fade($atts, $content = null)
 {
-	$outcomes = explode(',', $content);
+	$outcomes = explode(', ', $content);
 	wp_register_script ('faderjs', plugins_url('js/fader.js', __FILE__));
 	wp_enqueue_script ('faderjs');
 	wp_localize_script ('faderjs', 'outcomes', $outcomes);
